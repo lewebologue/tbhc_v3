@@ -3,7 +3,7 @@ import { Component, inject, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MenuItem } from 'primeng/api';
 import { MenubarModule } from 'primeng/menubar';
-import { HeaderMenu } from '../../shared/const/header.menu';
+import { HeaderMenu } from '../../shared/const/menu';
 
 @Component({
   selector: 'app-header',

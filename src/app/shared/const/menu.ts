@@ -1,3 +1,6 @@
+import { PrimeIcons } from "primeng/api";
+import { routes } from "../../app.routes";
+
 export const HeaderMenu = [
     {
         label: 'Le club',
@@ -77,5 +80,37 @@ export const HeaderMenu = [
       label: 'Billeterie',
       target: '_blank',
       url: 'https://angular.io/'
+    }
+];
+
+export const FooterMenu = [
+    {
+        label: 'Mentions légales',
+        route: '/mentions-legales'
+    },
+    {
+      label: 'Hockeynet',
+      target: '_blank',
+      url: 'https://angular.io/'
+    },
+    {
+      label: 'Billeterie',
+      target: '_blank',
+      url: 'https://angular.io/'
+    },
+    {
+        target: '_blank',
+        icon: PrimeIcons.FACEBOOK,
+        url: 'https://angular.io/'
+    },
+    {
+        target: '_blank',
+        icon: PrimeIcons.LINKEDIN,
+        url: 'https://angular.io/'
+    },
+    {
+        target: '_blank',
+        icon: PrimeIcons.INSTAGRAM,
+        url: 'https://angular.io/'
     }
 ];
