@@ -1,8 +1,8 @@
-interface Proprietaire {
+type Proprietaire = {
   code: string;
 }
 
-interface Equipe {
+type Equipe = {
   id: number;
   nom: string;
   nom_court: string;
@@ -12,7 +12,7 @@ interface Equipe {
   proprietaire: Proprietaire;
 }
 
-interface Position {
+type Position = {
   position: number;
   participant_id: number;
   equipe: Equipe;
@@ -30,11 +30,11 @@ interface Position {
   nombre_penalites: number;
 }
 
-interface Classement {
+type Classement = {
   classement_id: number;
   positions: Position[];
 }
 
-interface ApiResponse {
+export type ApiResponse = {
   data: Classement[];
 }
