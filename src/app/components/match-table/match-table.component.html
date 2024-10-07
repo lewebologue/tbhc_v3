@@ -1,0 +1,24 @@
+<div class="match-table-container">
+    <table id="matchData">
+        <thead>
+            <tr>
+                <th>DATE</th>
+                <th colspan="2">DOMICILE</th>
+                <th class="score">SCORE</th>
+                <th colspan="2">EXTERIEUR</th>
+                <th>LIEU</th>
+            </tr>
+        </thead>
+        <tbody id="details">
+            <tr>
+                <td class="row"> {{ match_date }}</td>
+                <td class="row receveur"> {{ visitor_name }}</td>
+                <td class="row"><img [src]="visitor_logo" class="logo_calendrier"></td>
+                <td class="row score">{{ visitor_score }} - {{ receiver_score }}</td>
+                <td class="row"><img [src]="receiver_logo" class="logo_calendrier"></td>
+                <td class="row"> {{ receiver_name }}</td>
+                <td class="row">{{ practice }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
