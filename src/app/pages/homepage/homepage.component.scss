@@ -2,10 +2,12 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    .hero {
-        width: 40vw;
-        img {
-            width: 80vw;
-        }
+    .hero img{
+        width: 100%;
+    }
+    .rank-result-container {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
     }
 }

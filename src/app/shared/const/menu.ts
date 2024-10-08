@@ -74,12 +74,12 @@ export const HeaderMenu = [
     {
       label: 'Boutique',
       target: '_blank',
-      url: 'https://angular.io/'
+      url: 'https://belougas.sumupstore.com/'
     },
     {
       label: 'Billeterie',
       target: '_blank',
-      url: 'https://angular.io/'
+      url: 'https://www.helloasso.com/associations/toulouse-blagnac-hockey-club'
     }
 ];
 
