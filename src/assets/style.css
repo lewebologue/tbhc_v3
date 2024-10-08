@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    table td, table th{
+        border-color: none!important;
+    }
+    #mathData, #classement {
+        border-collapse:collapse;
+        padding:5px;
+        font-family: lato, sans-serif;
+        font-size: 0.5em!important;
+    }
+    .logo_calendrier, .logo_classement{
+        display: none!important;
+    }
+}
+#mathData, #classement {
+    border-collapse:collapse;
+    padding:5px;
+    font-family: lato, sans-serif;
+    font-size: 1.2em;
+}
+#mathData th, #classement th {
+    padding:5px;
+    background: #E30428;
+    color: #0a0a0a;
+}
+#mathData td, #classement td {
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+}
+.logo_calendrier, .logo_classement{
+    width: 6vh;
+}
+.row{
+    text-align: center;
+}
+.score{
+    padding: 0 1.5rem!important;
+}
